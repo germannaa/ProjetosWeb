@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Projeto Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>Projeto Tópicos Web - Bootstrap</h1>
+    <p>Por: @germanna</p>
+  </div>
+  <div>
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="./inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./dadosCadastrais.html">Dados Cadastrais</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./propriedadesVeiculos.html">Propriedades</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./vinculosEmprego.html">Vinculos</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-6">
+          <h3 class="text-center">Vínculos</h3>
+
+          <div>
+            <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./vinculosEmprego.html">Ultimo Emprego</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="./vinculosSocio.html">Participação Societária</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <form>
+
+            <div class="container">
+
+              <div class="form-row">
+                <div class="form-group col-md-4">
+                  <label for="ano">Ano:</label>
+                  <input type="text" class="form-control" id="ano" placeholder="Digite o ano de admissão">
+                </div>
+                <div class="form-group col-md-8">
+                  <label for="cnpj">CNPJ:</label>
+                  <input type="text" class="form-control" id="cnpj" placeholder="Digite o CNPJ do último empregador">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="razao_social">Razão Social:</label>
+                  <input type="text" class="form-control" id="razao_social"
+                    placeholder="Digite a razão social do último empregador">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="ocupacao">Ocupação:</label>
+                  <input type="text" class="form-control" id="ocupacao"
+                    placeholder="Digite a ocupação no último emprego">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-4">
+                  <label for="horas_semanais">Qtd Horas:</label>
+                  <input type="text" class="form-control" id="horas_semanais"
+                    placeholder="Digite a quantidade de horas semanais trabalhadas">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="data_admissao">Data Admissão:</label>
+                  <input type="text" class="form-control" id="data_admissao"
+                    placeholder="Digite a data de admissão no último emprego">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="data_desligamento">Data Desligamento:</label>
+                  <input type="text" class="form-control" id="data_desligamento"
+                    placeholder="Digite a data de desligamento do último emprego">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="salario_bruto">Salário Bruto:</label>
+                  <input type="text" class="form-control" id="salario_bruto"
+                    placeholder="Digite o salário bruto no último emprego">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="salario_liquido">Salário Líquido:</label>
+                  <input type="text" class="form-control" id="salario_liquido"
+                    placeholder="Digite o salário líquido no último emprego">
+                </div>
+              </div>
+
+
+
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%"></div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Projeto Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>Projeto Tópicos Web - Bootstrap</h1>
+    <p>Por: @germanna</p>
+  </div>
+  <div>
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="./inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./dadosCadastrais.html">Dados Cadastrais</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./propriedadesVeiculos.html">Propriedades</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./vinculosEmprego.html">Vinculos</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-6">
+          <h3 class="text-center">Vínculos</h3>
+
+          <div>
+            <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="./vinculosEmprego.html">Ultimo Emprego</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./vinculosSocio.html">Participação Societária</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="razao_social_sociedade">Razão Social:</label>
+                <input type="text" class="form-control" id="razao_social_sociedade" placeholder="Razão Social">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-5">
+                <label for="cnpj_sociedade">CNPJ:</label>
+                <input type="text" class="form-control" id="cnpj_sociedade" placeholder="CNPJ">
+              </div>
+              <div class="form-group col-md-7">
+                <label for="qualificacao_socio">Qualificação Sócio:</label>
+                <input type="text" class="form-control" id="qualificacao_socio" placeholder="Qualificação">
+              </div>
+            </div>
+
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
